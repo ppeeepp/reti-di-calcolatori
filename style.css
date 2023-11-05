@@ -1,0 +1,56 @@
+body {
+  background-color: #000;
+  font-family: 'Bebas Neue';
+  color: #d4ff00;
+  padding: 20px;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+  top:0; left:0; padding:15px;
+  display: flex;
+  background: #000;
+  border: 1px solid #000;
+  border-bottom-color: #555555;
+  font-size: 20px;
+}
+.logo{
+padding-top: 20px;
+}
+
+.menu{
+  display: flex;
+  padding-block: 20px;
+  list-style: none;
+}
+.menu-link{
+  display: block;
+  padding: 10px;
+}
+.img {
+  padding:10px;
+}
+
+.prg {
+  padding: 10px;
+  display: flex;
+}
+
+.contact {
+padding: 30px; color: #d4ff00; font-size: 20px;
+}
+
+.button {
+  padding: 20px 30px; ; background: #050505; display: inline-block; border-radius: 15px;
+
+}
